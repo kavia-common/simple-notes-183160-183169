@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Simple Notes</string>
+    <string name="add_note">Add Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+    <string name="title_hint">Title</string>
+    <string name="content_hint">Start typing your note...</string>
+    <string name="empty_notes">No notes yet. Tap + to create one.</string>
+    <string name="error_save">Failed to save note.</string>
+    <string name="error_delete">Failed to delete note.</string>
+</resources>
