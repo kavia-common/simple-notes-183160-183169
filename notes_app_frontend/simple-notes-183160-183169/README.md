@@ -8,9 +8,12 @@ Features:
 - Local JSON persistence in app-private storage
 - Light theme accents (Primary #3b82f6, Success #06b6d4, Secondary #64748b)
 
-Build:
-- ./gradlew build
+Build (no device required):
+- ./gradlew :app:assembleDebug
+  - Produces APK at app/build/outputs/apk/debug/app-debug.apk
+- Optional: ./gradlew :app:bundleDebug
+- Full build: ./gradlew build
 
-Run:
+Run on a device/emulator (optional):
 - ./gradlew :app:installDebug
 - Launch "Simple Notes" on the connected device/emulator.

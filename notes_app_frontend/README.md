@@ -10,9 +10,12 @@ This module now implements a simple notes app with:
   - Secondary: #64748b
 
 Build:
-- ./gradlew build
+- ./gradlew :app:assembleDebug
+  - This assembles the debug APK without requiring a connected device/emulator.
+- Optional: ./gradlew :app:bundleDebug (to build an AAB)
+- Full build: ./gradlew build
 
-Run (typical):
+Run on a device/emulator (optional, requires device):
 - ./gradlew :app:installDebug
 - Open "Simple Notes" on the device/emulator.
 
